@@ -11,6 +11,7 @@ let package = Package(
   products: [
     .library(
       name: "SMBClient",
+      type: .dynamic,
       targets: ["SMBClient"]
     ),
   ],
